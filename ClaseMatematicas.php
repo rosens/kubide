@@ -11,7 +11,6 @@ for ($contador = 1; $contador <= 100; $contador++){
 
    $mostrar = VerificarNumero::DameNumero($contador);
 
-
    echo <<<MOSTRAR
               El niño {$contador} dice: ¡{$mostrar}!
               <br />
