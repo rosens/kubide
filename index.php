@@ -7,7 +7,7 @@
  * Time: 13:33
  */
 
-include 'VerificarNumero.php';
+include 'Class/VerificarNumero.php';
 
 for ($contador = 1; $contador <= 100; $contador++){
 
