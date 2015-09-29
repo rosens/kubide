@@ -16,10 +16,10 @@ class ContandoNumerosTest extends PHPUnit_Framework_TestCase
     //Prueba Contar
     public function testContar () {
 
-        $esperado = "El niño 1 dice: ¡1! "."<br />";
-        $actual = ContandoNumeros::Contar(1);
+        $esperado = "El niño 1 dice: ¡1! "."<br />";    //Cadena que esperamos
+        $actual = ContandoNumeros::Contar(1);           //Cadena que devuelve el método
 
-        $this->assertEquals ($esperado,$actual);
+        $this->assertEquals ($esperado,$actual);        //Método que verifica si ambas cadenas son iguales
     }
 
 }

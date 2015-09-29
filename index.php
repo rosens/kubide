@@ -9,7 +9,6 @@
 
 include 'Class/ContandoNumeros.php';
 
-
 //Bucle del 1 a 100 (inclusive)
 for ($contador = 1; $contador <= 100; $contador++) {
 

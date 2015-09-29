@@ -14,7 +14,6 @@ class ContandoNumeros
     //CONTAR: Función Static para poder llamarla sin necesidad de instanaciar el objeto
     public static function Contar ($contador)
     {
-
             //Llamamos a la función DameNumero y lo recogemos en una variable para mostrarla
             $mostrar = VerificarNumero::DameNumero($contador);
 
