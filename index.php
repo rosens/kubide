@@ -9,8 +9,10 @@
 
 include 'Class/VerificarNumero.php';
 
+//Bucle del 1 a 100 (inclusive)
 for ($contador = 1; $contador <= 100; $contador++){
 
+    //Llamamos a la función DameNumero y lo recogemos en una variable para mostrarla
    $mostrar = VerificarNumero::DameNumero($contador);
 
    echo <<<MOSTRAR
